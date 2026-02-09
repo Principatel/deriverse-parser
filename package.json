@@ -1,0 +1,25 @@
+{
+  "name": "deriverse-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@coral-xyz/borsh": "^0.32.1",
+    "@deriverse/kit": "^1.0.39",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
